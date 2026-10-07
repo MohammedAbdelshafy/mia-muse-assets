@@ -1,10 +1,43 @@
 const KEY="mia-static-demo-v2";
 const API_BASE=(window.MIA_API_BASE||"https://mia-ai-world.hatchable.site/api").replace(/\/$/,"");
-let state=JSON.parse(localStorage.getItem(KEY)||"null")||{credits:25,profile:null,backend:false};
+let state=JSON.parse(localStorage.getItem(KEY)||"null")||{credits:25,profile:null,backend:false,selectedPower:null};
 
 const $=s=>document.querySelector(s);
 const $$=s=>[...document.querySelectorAll(s)];
-const suggestions={
+
+let brain={version:"unknown",powers:[]};
+async function loadBrain(){
+  try{
+    const r=await fetch("./mia-brain.json",{cache:"no-store"});
+    if(r.ok){brain=await r.json();}
+  }catch(e){}
+  renderBrain();
+}
+function renderBrain(){
+  const grid=$("#miaBrainGrid");
+  if(!grid)return;
+  grid.innerHTML="";
+  (brain.powers||[]).forEach((p,i)=>{
+    const card=document.createElement("button");
+    card.className="brain-card";
+    card.type="button";
+    card.dataset.capability=p.name;
+    card.innerHTML='<span class="brain-index">'+String(i+1).padStart(2,"0")+'</span><strong>'+p.name+'</strong><small>'+p.workflow+'</small><em>'+p.adapters+'</em>';
+    card.addEventListener("click",()=>{
+      state.selectedPower=p.name;
+      save();
+      const prompt="Use the Mia power \""+p.name+"\". Execute this workflow: "+p.workflow+". Route through these adapters when available: "+p.adapters+". Do the smallest safe verified step, then return evidence and the next action.";
+      $("#missionInput").value=prompt;
+      $(".brain-card").forEach(x=>x.classList.remove("selected"));
+      card.classList.add("selected");
+      location.hash="mission";
+      $("#missionInput")?.focus();
+    });
+    grid.appendChild(card);
+  });
+  if($("#brainCount"))$("#brainCount").textContent=(brain.powers||[]).length;
+}
+\nconst suggestions={
   "Research":"Research the competitive landscape for my business and outline three opportunities.",
   "Work on App":"Inspect my app and propose the highest-value improvement you can safely verify.",
   "Create":"Create a visual campaign concept for a new product launch.",
@@ -62,7 +95,7 @@ $("#enterMia")?.addEventListener("click",async()=>{
     industry:$("#industry")?.value.trim()||""
   };
   save();closeOnboarding();location.hash="mission";$("#missionInput")?.focus();
-  checkBackend();
+  loadBrain();\ncheckBackend();
 });
 
 $$( ".quick button" ).forEach(b=>b.addEventListener("click",()=>{
@@ -101,7 +134,7 @@ async function run(){
 
   let mission=null;
   try{
-    const mr=await api("/mission",{method:"POST",body:JSON.stringify({prompt})});
+    const mr=await api("/mission",{method:"POST",body:JSON.stringify({prompt,capability:state.selectedPower||null,brain_version:brain.version||null})});
     if(mr.ok)mission=await mr.json();
   }catch(e){}
 
@@ -130,7 +163,7 @@ async function run(){
 
   $("#miaState").textContent=category==="OUTREACH"?"APPROVAL REQUIRED":"SUCCESS";
   const box=document.createElement("div");box.className="result";
-  const title=document.createElement("div");title.className="mission-result-title";title.textContent=category+" · "+(state.backend?"CONNECTED":"DEMO");
+  const title=document.createElement("div");title.className="mission-result-title";title.textContent=(state.selectedPower?state.selectedPower+" · ":"")+category+" · "+(state.backend?"CONNECTED":"DEMO");
   box.appendChild(title);
   const body=document.createElement("div");body.textContent=answer;box.appendChild(body);
   feed.appendChild(box);
