@@ -13,44 +13,54 @@
 <link rel="stylesheet" href="./styles.css"></head><body>
 <div class="noise"></div>
 <header class="nav"><a class="brand" href="#top"><span class="dot"></span>MIA<span class="brand-ai">AI</span></a>
-<nav><a href="#mission">Mission</a><a href="#brain">Mia Brain</a><a href="#world">AI World</a><a href="#business">Business</a></nav>
+
 <button class="nav-cta" data-open-onboarding>Try Mia Free</button></header>
 <main id="top">
-<section class="hero"><div class="hero-grid"><div class="hero-copy">
-<div class="eyebrow"><span class="pulse"></span> FICTIONAL EMBODIED AI OPERATOR</div>
-<h1>Meet Mia.<br><span>Your AI operator with a world of her own.</span></h1>
-<p>Research. Build. Create. Grow. One command.</p>
-<div class="hero-actions"><button class="primary" data-open-onboarding>Start with 25 Free Credits</button><a class="secondary" href="#mission">Watch the Mission ↓</a></div>
-<div class="credit-card"><strong>25 free demo credits</strong><span>No credit card · No commitment · Local demo only</span></div></div>
-<div class="hero-visual"><div class="orbital"></div><img src="https://cdn.creativeclaw.co/u/72a2f3d6/images/905a9dbc-35a6-48ba-8732-d33f3c397b69.jpg" alt="Mia, the fictional AI operator" class="mia-photo mia-approved-visual">
-<div class="telemetry"><span>MISSION LINK</span><b>READY</b><small>CHAT → INTERNET → SPACE → WORLD → OUTCOME</small></div></div></div></section>
-<section class="ticker"><span>CHAT</span><i>→</i><span>INTERNET</span><i>→</i><span>SPACE</span><i>→</i><span>WORLD</span><i>→</i><span>OUTCOME</span></section>
-<section id="mission" class="section"><div class="section-head"><div><div class="eyebrow">01 / MISSION CONSOLE</div><h2>Give Mia a mission.</h2></div><div class="credit-pill"><b id="creditCount">25</b> demo credits</div></div>
-<div class="mission-layout"><div class="console glass"><label for="missionInput">What would you like me to do today?</label>
-<textarea id="missionInput" placeholder="Research a market, improve my app, create a campaign, plan outreach..." rows="5"></textarea>
-<div class="quick"><button data-mission="Research">Research</button><button data-mission="Work on App">Work on App</button><button data-mission="Create">Create</button><button data-mission="Outreach">Outreach</button><button data-mission="Operate">Operate</button></div>
-<button id="runMission" class="primary full">Run Mission · 1 credit</button><p class="micro">Demo mode: no live web browsing, sending, publishing, deployment or destructive actions. Connect real tools later.</p></div>
-<div class="mission-status glass" aria-live="polite"><div class="state-row"><span>MIA STATE</span><b id="miaState">IDLE</b></div>
-<div id="phaseTrack" class="phase-track"><span class="active">CHAT</span><span>INTERNET</span><span>SPACE</span><span>WORLD</span><span>OUTCOME</span></div>
-<div id="missionFeed" class="feed"><div class="empty"><span class="ring"></span><h3>Awaiting your command.</h3><p>Mia will simulate the mission journey and return a truthful demo outcome.</p></div></div></div></div></section>
-<section id="brain" class="section brain-section"><div class="section-head"><div><div class="eyebrow">01 / MIA BRAIN</div><h2>Every power, one command.</h2><p class="head-copy">Every registered agent skill has a visible workflow. Tap a power and Mia routes its workflow into the mission console.</p></div><div class="brain-badge"><b id="brainCount">0</b><span>powers wired</span></div></div><div id="miaBrainGrid" class="brain-grid" aria-label="Mia agent powers"></div><div class="brain-note">Adapter names are routing targets. Live execution still depends on the connected provider, credentials and approval policy.</div><div class="brain-visual glass"><img src="https://cdn.creativeclaw.co/u/72a2f3d6/images/b1821411-2349-4488-8788-4469df8a629d.jpg" alt="Mia operator interface reference" loading="lazy"><div><div class="eyebrow">APPROVED VISUAL LANGUAGE</div><h3>Mia / Operator World</h3><p>This reference is now part of the visual system. The older Mia image is no longer the primary hero visual.</p></div></div></section><section id="world" class="section"><div class="section-head"><div><div class="eyebrow">02 / AI WORLD</div><h2>Specialists, not a single chatbot.</h2></div><p class="head-copy">Choose a business world and Mia turns it into a focused mission.</p></div>
-<div class="world-grid">
-<button class="world-card" data-world="Research"><b>01</b><h3>Research</h3><p>Markets, competitors, evidence.</p></button><button class="world-card" data-world="Sales"><b>02</b><h3>Sales</h3><p>Qualification, offers, pipeline.</p></button>
-<button class="world-card" data-world="Marketing"><b>03</b><h3>Marketing</h3><p>Campaigns, positioning, growth.</p></button><button class="world-card" data-world="Content"><b>04</b><h3>Content</h3><p>Ideas, scripts, repurposing.</p></button>
-<button class="world-card" data-world="Data"><b>05</b><h3>Data</h3><p>Clean, classify, verify.</p></button><button class="world-card" data-world="Operations"><b>06</b><h3>Operations</h3><p>Systems, cadence, automation.</p></button>
-<button class="world-card" data-world="Customer"><b>07</b><h3>Customer</h3><p>Support, responses, retention.</p></button><button class="world-card" data-world="Code"><b>08</b><h3>Code</h3><p>Apps, tests, improvements.</p></button>
-<button class="world-card" data-world="Finance"><b>09</b><h3>Finance</h3><p>Reviews, planning, controls.</p></button><button class="world-card" data-world="Strategy"><b>10</b><h3>Strategy</h3><p>Priorities, trade-offs, bets.</p></button>
+<section class="hero">
+  <div class="hero-backdrop">
+    <img src="https://cdn.creativeclaw.co/u/72a2f3d6/images/905a9dbc-35a6-48ba-8732-d33f3c397b69.jpg" alt="Mia" />
+  </div>
+  <div class="hero-vignette"></div>
+  <div class="hero-content">
+    <div class="hero-topline"><span class="live-dot"></span><span>MIA AI</span><span class="topline-spacer"></span><button class="ghost">Login</button><button class="nav-cta" data-open-onboarding>Try for Free →</button></div>
+    <div class="hero-copy-centered">
+      <div class="eyebrow">A NEW KIND OF AI PRESENCE</div>
+      <h1>Meet Mia.</h1>
+      <p>Your AI operator with a world of her own.</p>
+      <div class="hero-chat-wrap">
+        <div class="chat-glass">
+          <div class="chat-header"><span class="chat-orb"></span><span>What would you like me to do today?</span><span class="chat-state">MIA · ONLINE</span></div>
+          <textarea id="missionInput" placeholder="Give Mia a mission..." rows="3"></textarea>
+          <div class="chat-actions">
+            <div class="chat-tools">
+              <button data-mission="Research">⌕ Research</button><button data-mission="Create">✦ Create</button><button data-mission="Work on App">⌘ Build</button><button data-mission="Outreach">↗ Outreach</button><button data-mission="Operate">⚙ Operate</button>
+            </div>
+            <button id="runMission" class="send-btn" aria-label="Send mission">↑</button>
+          </div>
+          <div class="chat-foot"><span>25 free demo credits</span><span>Human in control</span></div>
+        </div>
+        <div class="mia-lean-figure"><img src="https://cdn.creativeclaw.co/u/72a2f3d6/images/905a9dbc-35a6-48ba-8732-d33f3c397b69.jpg" alt="Mia leaning over the mission console"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="brain" class="brain-first">
+  <div class="brain-heading"><div class="eyebrow">MIA BRAIN</div><h2>Her powers are the interface.</h2><p>Every specialist capability is available directly beneath the command console.</p><div class="brain-count"><b id="brainCount">0</b> powers</div></div>
+  <div id="miaBrainGrid" class="brain-grid" aria-label="Mia agent powers"></div>
+</section>
+<section id="mission" class="mission-output">
+  <div class="mission-status glass" aria-live="polite">
+    <div class="state-row"><span>MIA STATE</span><b id="miaState">IDLE</b></div>
+    <div id="phaseTrack" class="phase-track"><span class="active">CHAT</span><span>INTERNET</span><span>SPACE</span><span>WORLD</span><span>OUTCOME</span></div>
+    <div id="missionFeed" class="feed"><div class="empty"><span class="ring"></span><h3>Awaiting your command.</h3><p>Mia will simulate the mission journey and return a truthful demo outcome.</p></div></div>
+  </div>
+</section>
+<section class="world-mini"><div class="eyebrow">MIA / WORLDS</div><h2>One operator. Many worlds.</h2><div class="world-grid">
+<button class="world-card" data-world="Research"><b>01</b><h3>Research</h3><p>Markets, competitors, evidence.</p></button><button class="world-card" data-world="Sales"><b>02</b><h3>Sales</h3><p>Qualification, offers, pipeline.</p></button><button class="world-card" data-world="Marketing"><b>03</b><h3>Marketing</h3><p>Campaigns, positioning, growth.</p></button><button class="world-card" data-world="Code"><b>04</b><h3>Code</h3><p>Apps, tests, improvements.</p></button>
 </div></section>
-
-<section class="section split-section"><div class="panel glass"><div class="eyebrow">CREATIVE STUDIO</div><h2>Create without pretending.</h2><p>Providers show their real connection state. No fake “generated” results. No hidden spend.</p>
-<div class="provider"><span>Creative Claw</span><em>DISCONNECTED</em></div><div class="provider"><span>OpenAI Image Generation</span><em>READY TO CONNECT</em></div><div class="provider"><span>Video Providers</span><em>READY TO CONNECT</em></div></div>
-<div class="panel glass"><div class="eyebrow">OUTREACH</div><h2>Human stays in the loop.</h2><p>Research authorized business contacts, draft truthful messages and queue them for review.</p><div class="approval"><span class="shield">✓</span><div><b>Nothing is sent until you approve.</b><small>External messages and publishing always pause for approval.</small></div></div></div></section>
-<section id="business" class="section business"><div class="section-head"><div><div class="eyebrow">04 / FOR TEAMS</div><h2>Build your AI workforce.</h2></div></div>
-<div class="funnel"><div>01<span>Discovery</span></div><i>→</i><div>02<span>15-minute demo</span></div><i>→</i><div>03<span>Design Partner</span></div><i>→</i><div>04<span>Pilot</span></div><i>→</i><div>05<span>Paid implementation</span></div></div>
-<div class="business-card glass"><div><h3>Start small. Prove value. Expand deliberately.</h3><p>Mia can become an agency white-label, internal operator layer or platform partnership surface.</p></div><button class="primary" data-open-onboarding>Claim 25 Free Credits</button></div></section>
-<section class="final-cta"><div class="eyebrow">YOUR NEXT INTERFACE</div><h2>One command.<br>One mission.<br>A world of possibilities.</h2><button class="primary" data-open-onboarding>Try Mia Free</button><p>25 free demo credits · no card · demo mode only</p></section>
+<section class="silent-footer"><span>MIA AI</span><span>Fictional embodied AI operator</span><span>Built for Jarvis MBM</span></section>
 </main>
-<footer><div class="brand"><span class="dot"></span>MIA<span class="brand-ai">AI</span></div><span>Fictional embodied AI operator experience.</span><span>Built for the Jarvis MBM ecosystem.</span></footer>
+
 <div id="onboarding" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="onboardTitle"><div class="modal-card"><button class="modal-close" data-close-onboarding aria-label="Close">×</button><div class="eyebrow">WELCOME TO MIA</div><h2 id="onboardTitle">Make the first mission yours.</h2><p>Start with 25 free demo credits. No card required.</p>
 <div class="form-grid"><label>Display name<input id="name" placeholder="Your name"></label><label>Email<input id="email" type="email" placeholder="you@company.com"></label><label>Presentation<select id="presentation"><option>Woman</option><option>Man</option><option>Neutral</option></select></label><label>Tone<select id="tone"><option>Calm & precise</option><option>Bold & energetic</option><option>Warm & conversational</option><option>Executive & concise</option></select></label><label class="wide">Industry / use case<input id="industry" placeholder="AI agency, real estate, SaaS, operations..."></label></div>
 <button id="enterMia" class="primary full">Enter Mia · 25 Free Credits</button><small>Demo state is stored locally in this browser. It is not billing or account security.</small></div></div>
