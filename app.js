@@ -37,7 +37,8 @@ function renderBrain(){
   });
   if($("#brainCount"))$("#brainCount").textContent=(brain.powers||[]).length;
 }
-\nconst suggestions={
+
+const suggestions={
   "Research":"Research the competitive landscape for my business and outline three opportunities.",
   "Work on App":"Inspect my app and propose the highest-value improvement you can safely verify.",
   "Create":"Create a visual campaign concept for a new product launch.",
