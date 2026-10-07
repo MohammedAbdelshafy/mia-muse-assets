@@ -95,7 +95,8 @@ $("#enterMia")?.addEventListener("click",async()=>{
     industry:$("#industry")?.value.trim()||""
   };
   save();closeOnboarding();location.hash="mission";$("#missionInput")?.focus();
-  loadBrain();\ncheckBackend();
+  loadBrain();
+  checkBackend();
 });
 
 $$( ".quick button" ).forEach(b=>b.addEventListener("click",()=>{
@@ -199,4 +200,5 @@ if("speechSynthesis"in window){
   $(".hero-copy")?.appendChild(speak);
 }
 
+loadBrain();
 checkBackend();
