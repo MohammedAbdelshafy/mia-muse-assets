@@ -1,0 +1,242 @@
+{
+  "version": "2026.10.08",
+  "identity": "Mia",
+  "mode": "operator",
+  "principles": [
+    "evidence-first",
+    "revenue-first",
+    "human-controlled",
+    "provider-independent",
+    "traceable",
+    "smallest-useful-action"
+  ],
+  "missionTypes": {
+    "WORK": "inspect -> change -> test -> verify",
+    "RESEARCH": "search -> extract -> compare -> verify -> brief",
+    "CREATE": "brief -> select provider -> create -> review -> integrate",
+    "OUTREACH": "research -> enrich -> personalize -> queue -> approval",
+    "OPERATE": "plan -> execute reversible action -> verify; approval for consequential actions"
+  },
+  "powers": [
+    {
+      "name": "Mission Planner",
+      "workflow": "plan -> decompose -> route",
+      "adapters": "Thinking / Jarvis"
+    },
+    {
+      "name": "Decision Synthesizer",
+      "workflow": "evidence -> trade-offs -> recommendation",
+      "adapters": "Thinking / Research"
+    },
+    {
+      "name": "Self-Audit",
+      "workflow": "inspect state -> detect gaps -> prioritize one fix",
+      "adapters": "GitHub / QA"
+    },
+    {
+      "name": "Opportunity Prioritizer",
+      "workflow": "score impact x effort x evidence -> next action",
+      "adapters": "Thinking"
+    },
+    {
+      "name": "Web Research",
+      "workflow": "search -> open -> cite -> verify",
+      "adapters": "Web / Parallel Search / Exa / Tavily"
+    },
+    {
+      "name": "Deep Web Research",
+      "workflow": "multi-source research -> evidence map",
+      "adapters": "Parallel Search / Exa / Firecrawl"
+    },
+    {
+      "name": "Company Intelligence",
+      "workflow": "company -> people -> signals -> fit",
+      "adapters": "AI Vibe Prospecting / Clay / LinkedIn"
+    },
+    {
+      "name": "Competitive Intelligence",
+      "workflow": "competitors -> offers -> positioning -> gaps",
+      "adapters": "Semrush / Exa / Firecrawl"
+    },
+    {
+      "name": "Page Crawl & Extraction",
+      "workflow": "crawl -> extract -> normalize",
+      "adapters": "Firecrawl / Olostep / Context.dev"
+    },
+    {
+      "name": "Browser Operator",
+      "workflow": "navigate -> inspect -> act with permission",
+      "adapters": "Browser / approved connectors"
+    },
+    {
+      "name": "Document Intelligence",
+      "workflow": "document -> structure -> summarize -> cite",
+      "adapters": "Files / Context.dev"
+    },
+    {
+      "name": "Data Cleaning",
+      "workflow": "ingest -> normalize -> dedupe -> QA",
+      "adapters": "DataClean / Files / CSV"
+    },
+    {
+      "name": "File & Spreadsheet Ops",
+      "workflow": "read -> transform -> validate -> export",
+      "adapters": "Files / spreadsheet tools"
+    },
+    {
+      "name": "GitHub Repo Intelligence",
+      "workflow": "repo -> issues -> code -> commits -> workflow",
+      "adapters": "GitHub"
+    },
+    {
+      "name": "Code & Build",
+      "workflow": "inspect -> implement -> test -> diff",
+      "adapters": "GitHub / Replit / Lovable"
+    },
+    {
+      "name": "App Builder",
+      "workflow": "brief -> scaffold -> iterate -> preview",
+      "adapters": "Lovable / Replit / Hatchable"
+    },
+    {
+      "name": "Deployment",
+      "workflow": "build -> deploy -> smoke-test -> verify",
+      "adapters": "Vercel / Railway / Hatchable / AppDeploy"
+    },
+    {
+      "name": "Cloud Infrastructure",
+      "workflow": "plan -> provision -> observe",
+      "adapters": "AWS / Railway"
+    },
+    {
+      "name": "Backend & Database",
+      "workflow": "schema -> API -> migration -> verify",
+      "adapters": "Supabase / Hatchable"
+    },
+    {
+      "name": "QA & Regression",
+      "workflow": "test -> inspect failures -> triage -> rerun",
+      "adapters": "QA Wolf / GitHub"
+    },
+    {
+      "name": "API Mocking",
+      "workflow": "contract -> stub -> validate integration",
+      "adapters": "StubEngine"
+    },
+    {
+      "name": "Image Creation",
+      "workflow": "brief -> generate/edit -> review -> integrate",
+      "adapters": "OpenAI Image / Creative Claw"
+    },
+    {
+      "name": "Video Creation",
+      "workflow": "script -> storyboard -> render -> review",
+      "adapters": "VEED / Higgsfield / Runway"
+    },
+    {
+      "name": "Creative Design",
+      "workflow": "brand -> layout -> asset -> export",
+      "adapters": "Canva / Adobe Express"
+    },
+    {
+      "name": "Presentation Design",
+      "workflow": "story -> slides -> polish -> export",
+      "adapters": "Gamma / Canva"
+    },
+    {
+      "name": "Voice & Presence",
+      "workflow": "script -> voice -> playback",
+      "adapters": "AI Voice Generator / VEED"
+    },
+    {
+      "name": "3D & World Direction",
+      "workflow": "business context -> environment -> mission scene",
+      "adapters": "WalkMyPlan / world layer"
+    },
+    {
+      "name": "Prospecting",
+      "workflow": "ICP -> discover -> rank -> queue",
+      "adapters": "AI Vibe Prospecting / Clay"
+    },
+    {
+      "name": "Lead Enrichment",
+      "workflow": "company/person -> enrich -> verify -> score",
+      "adapters": "Clay / AI Vibe Prospecting"
+    },
+    {
+      "name": "CRM Operations",
+      "workflow": "find -> update -> pipeline -> report",
+      "adapters": "HubSpot / Zoho CRM"
+    },
+    {
+      "name": "Outreach Drafting",
+      "workflow": "evidence -> personalize -> review queue",
+      "adapters": "FeedClaw / LinkedIn / CRM"
+    },
+    {
+      "name": "Content Distribution",
+      "workflow": "create -> schedule -> publish -> measure",
+      "adapters": "FeedClaw / Metricool"
+    },
+    {
+      "name": "SEO Growth",
+      "workflow": "crawl -> intent -> fix -> measure",
+      "adapters": "GSC Wizard / Semrush / Grow My Website"
+    },
+    {
+      "name": "Analytics",
+      "workflow": "measure -> diagnose -> recommend",
+      "adapters": "Metricool / GSC Wizard / Vercel"
+    },
+    {
+      "name": "Workflow Automation",
+      "workflow": "trigger -> orchestrate -> execute -> verify",
+      "adapters": "M_ke / MacroDroid / automation layer"
+    },
+    {
+      "name": "Agent Swarm",
+      "workflow": "mission -> specialists -> merge -> verify",
+      "adapters": "Jarvis / Agent Community"
+    },
+    {
+      "name": "Knowledge & Memory",
+      "workflow": "mission -> memory -> retrieve -> update",
+      "adapters": "Engram / GitHub / Notion"
+    },
+    {
+      "name": "SDK & Knowledge Research",
+      "workflow": "question -> docs -> implementation guidance",
+      "adapters": "Metaplay SDK Docs / GitBook / Context7"
+    },
+    {
+      "name": "Task & Project Ops",
+      "workflow": "plan -> assign -> track -> close",
+      "adapters": "Asana / ClickUp / monday.com"
+    },
+    {
+      "name": "Safety & Approvals",
+      "workflow": "classify risk -> pause -> request approval",
+      "adapters": "Mia policy engine"
+    },
+    {
+      "name": "Audit Trail",
+      "workflow": "mission -> artifact -> test -> deploy -> verification",
+      "adapters": "GitHub / Mia telemetry"
+    },
+    {
+      "name": "Provider Failover",
+      "workflow": "capability -> provider health -> fallback",
+      "adapters": "provider adapter layer"
+    },
+    {
+      "name": "Agent Ecosystem",
+      "workflow": "discover -> evaluate -> connect -> govern",
+      "adapters": "Agent Community / omgskills"
+    },
+    {
+      "name": "Publishing & Growth Loop",
+      "workflow": "asset -> landing -> distribution -> measurement -> iteration",
+      "adapters": "GitHub / FeedClaw / Semrush / Metricool"
+    }
+  ]
+}
