@@ -1,4 +1,4 @@
-# Mia Media Library
+# Mia Muse Assets
 
 A library of clips, images, audio and demo assets used by the Mia site and related product explainers. Keep asset paths stable and label simulated product footage accurately.
 
