@@ -2,11 +2,11 @@
 type: repository
 status: active
 owner_repo: MohammedAbdelshafy/mia-muse-assets
-product_name: Mia Media Library
+product_name: Mia Muse Assets
 source_of_truth: https://github.com/MohammedAbdelshafy/mia-muse-assets
 ---
 
-# Mia Media Library CONTEXT
+# Mia Muse Assets CONTEXT
 
 One job: store and organize reusable media for the Mia site, demos and approved marketing materials.
 
