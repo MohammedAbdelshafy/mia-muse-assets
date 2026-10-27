@@ -4,7 +4,7 @@
 - Status: REQUESTED, awaiting Muse render
 - GitHub issue: https://github.com/MohammedAbdelshafy/mia-muse-assets/issues/3
 - Budget: $0 incremental cost only
-- Publisher: ChatGPT/Jarvis handles creative brief, facts, title, description, tags, posting readiness and QA. Muse handles video render, audio mix, captions export, cover and render QA.
+- Publisher: ChatGPT/Jarvis handles creative brief, facts, title, description, tags, final QA and posting readiness. Muse handles video render, audio mix, captions export, cover, metadata artifact, asset commit and render QA. Muse also owns separate email campaign preparation/queue/reply operations; ChatGPT owns lead strategy and WhatsApp message work when a verified, consent-compliant channel exists.
 
 ## Required output
 Create an actual cinematic vertical Short, not a still-image slideshow, 35 to 45 seconds, 9:16, target 1080x1920 if a $0 route supports it. Keep the Mia host identity consistent. Use the strongest relevant existing Mia video in this repository as style reference, not as footage to simply repost.
@@ -52,5 +52,6 @@ Pinned comment: What repetitive task should Professor Mia turn into a tested wor
 - Use only verified free paths. No credits, paid fallbacks, upgrades, or trials that may trigger billing.
 - If no $0 render route is available, stop and report blocked. Do not substitute a low-quality slideshow or claim an unrendered result is complete.
 - Rendering completion is not publication.
-- Expected YouTube destination for this request is @dontwatchthis1 (channel ID UCVXhA6w-e36kJB3YUvrky3g). The currently connected Metricool brand bigmoeshafy maps to another channel ID, UCknUgK7LEQOoXk_44juSfzw. Do not publish until the correct target is connected to the publishing tool.
-- Publication needs final output URL and a verified matching channel identity. No automatic publish to a different channel.
+- **Founder-approved destination (2026-10-27):** use existing Metricool brand **bigmoeshafy** (brand ID 6985395), YouTube channel ID UCknUgK7LEQOoXk_44juSfzw, after all render QA and $0-cost gates pass.
+- Do not publish to @dontwatchthis1 (channel ID UCVXhA6w-e36kJB3YUvrky3g) for this job; it is a different channel and is not the approved destination.
+- Rendering is not publication. Before posting, verify the actual MP4, matching cover/captions/metadata, playback/audio/caption QA, actual incremental cost of $0, destination identity, and duplicate status. Then publish through the approved Metricool brand and record the resulting URL.
