@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "status": "PREPARED_NOT_RENDERED",
+  "date": "2026-10-28",
+  "brand": "Professor Mia",
+  "content_language": "en-US",
+  "title": "Before You Let an AI Agent Edit Your Repo, Do This",
+  "description": "AI agents can move fast. Before letting one change your codebase, start read-only: ask for the plan, verify file paths and official docs, test on a disposable copy, then inspect the diff and run checks before accepting writes. Professor Mia shares a safer developer workflow. Any simulated interface in this explainer is illustrative, not proof of a live repository operation. Save the checklist and comment CHECKLIST with the workflow you want explained next.",
+  "hashtags": [
+    "#AIAgents",
+    "#DevTools",
+    "#CodingWorkflow"
+  ],
+  "tags": [
+    "AI agents",
+    "AI coding assistant",
+    "agentic coding",
+    "developer tools",
+    "code review",
+    "Git diff",
+    "safe AI workflow",
+    "software engineering",
+    "AI tutorial",
+    "repository safety",
+    "Professor Mia"
+  ],
+  "youtube": {
+    "type": "short",
+    "category": "SCIENCE_TECHNOLOGY",
+    "privacy": "public",
+    "madeForKids": false,
+    "isAiGeneratedContent": true,
+    "notifySubscribers": false
+  },
+  "pinned_comment": "What should an AI agent prove before you let it write to your repo? Share your checklist.",
+  "expected_artifacts": {
+    "video": "mia-vert-20261028-repo-agent-safety-final.mp4",
+    "cover": "mia-vert-20261028-repo-agent-safety-cover.jpg",
+    "captions": "mia-vert-20261028-repo-agent-safety.srt",
+    "metadata": "mia-vert-20261028-repo-agent-safety-metadata.json",
+    "qa": "mia-vert-20261028-repo-agent-safety-qa.md"
+  },
+  "render": {
+    "renderer_provider": null,
+    "duration_seconds": null,
+    "resolution": null,
+    "aspect_ratio": "9:16",
+    "audio_checked": false,
+    "captions_checked": false,
+    "full_playback_checked": false,
+    "cover_checked": false,
+    "music_rights": null,
+    "cost_usd": null,
+    "cost_evidence": null,
+    "qa_status": "NOT_RUN"
+  },
+  "publishing": {
+    "metricool_brand": "bigmoeshafy",
+    "metricool_brand_id": "6985395",
+    "youtube_channel_id": "UCknUgK7LEQOoXk_44juSfzw",
+    "timezone": "Africa/Cairo",
+    "youtube_url": null,
+    "published_at": null,
+    "duplicate_check": "Pending successful render QA"
+  }
+}
