@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "episode_slug": "claim-source-confidence",
+  "title": "AI Research in 30 Seconds: Claim, Source, Confidence",
+  "description": "AI can help you research faster, but you still need to verify the answer. Use three columns: the exact claim, the original source that supports it, and a confidence label: verified, partly supported, or unverified. Check source context and dates, trace back to primary evidence, and run a small reproducible test for numbers or code. This Professor Mia explainer is educational; any simulated interface is illustrative, not proof of a live research operation. Save the checklist and comment SOURCE with the research workflow you want explained next.",
+  "hashtags": [
+    "#AIResearch",
+    "#AIAgents",
+    "#CriticalThinking"
+  ],
+  "tags": [
+    "AI research",
+    "verify AI answers",
+    "source verification",
+    "AI hallucinations",
+    "primary sources",
+    "fact checking",
+    "research workflow",
+    "AI literacy",
+    "practical AI",
+    "developer tools",
+    "Professor Mia"
+  ],
+  "category": "SCIENCE_TECHNOLOGY",
+  "youtube_type": "short",
+  "madeForKids": false,
+  "isAiGeneratedContent": true,
+  "pinned_comment": "Which source check catches the most AI mistakes for you: claim, date, context, or reproducibility?",
+  "target": {
+    "platform": "YouTube",
+    "metricool_brand": "bigmoeshafy",
+    "metricool_brand_id": "6985395",
+    "youtube_channel_id": "UCknUgK7LEQOoXk_44juSfzw",
+    "timezone": "Africa/Cairo"
+  },
+  "render": {
+    "status": "REQUESTED_NOT_RENDERED",
+    "expected_filename": "mia-vert-20261029-claim-source-confidence-final.mp4",
+    "cover_filename": "mia-vert-20261029-claim-source-confidence-cover.jpg",
+    "srt_filename": "mia-vert-20261029-claim-source-confidence.srt",
+    "qa_filename": "mia-vert-20261029-claim-source-confidence-qa.md",
+    "duration_seconds": null,
+    "width_px": null,
+    "height_px": null,
+    "file_sha256": null,
+    "renderer_provider": null,
+    "audio_reviewed": false,
+    "captions_reviewed": false,
+    "cover_reviewed": false,
+    "cost_usd": null,
+    "cost_evidence": null
+  },
+  "disclosure_note": "Set YouTube altered/synthetic-content disclosure to true for the AI-presented/synthetic explainer.",
+  "note": "Prepared metadata only. Do not fill in render facts or set cost_usd to 0 until supported by render QA evidence."
+}
