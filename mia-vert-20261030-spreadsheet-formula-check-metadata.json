@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-30",
+  "episode_slug": "spreadsheet-formula-check",
+  "title": "Use AI for Spreadsheet Formulas Without Breaking Your Sheet",
+  "description": "AI can draft an Excel or Google Sheets formula, but don't paste the first answer into your live workbook. Explain what each column means, ask for the formula and its assumptions, then test a normal row, a blank row, and an edge case. In this illustrative example, $1,000 multiplied by 5% should return $50. If the result is $5,000, inspect whether the percentage was entered as 5 instead of 5%. Test on a copy before filling the formula down. Professor Mia shares practical AI habits using synthetic sample data.",
+  "hashtags": [
+    "#ExcelTips",
+    "#AIProductivity",
+    "#SpreadsheetTips"
+  ],
+  "tags": [
+    "AI spreadsheet formulas",
+    "Excel formulas",
+    "Google Sheets",
+    "formula testing",
+    "spreadsheet errors",
+    "AI productivity",
+    "small business tools",
+    "data validation",
+    "Excel tips",
+    "practical AI",
+    "Professor Mia"
+  ],
+  "category": "SCIENCE_TECHNOLOGY",
+  "youtube_type": "short",
+  "madeForKids": false,
+  "isAiGeneratedContent": true,
+  "pinned_comment": "What spreadsheet task should Professor Mia test with AI next?",
+  "target": {
+    "platform": "YouTube",
+    "metricool_brand": "bigmoeshafy",
+    "metricool_brand_id": "6985395",
+    "youtube_channel_id": "UCknUgK7LEQOoXk_44juSfzw",
+    "timezone": "Africa/Cairo"
+  },
+  "render": {
+    "status": "REQUESTED_NOT_RENDERED",
+    "expected_filename": "mia-vert-20261030-spreadsheet-formula-check-final.mp4",
+    "cover_filename": "mia-vert-20261030-spreadsheet-formula-check-cover.jpg",
+    "srt_filename": "mia-vert-20261030-spreadsheet-formula-check.srt",
+    "qa_filename": "mia-vert-20261030-spreadsheet-formula-check-qa.md",
+    "duration_seconds": null,
+    "width_px": null,
+    "height_px": null,
+    "file_size_bytes": null,
+    "file_sha256": null,
+    "renderer_provider": null,
+    "workflow_description": null,
+    "audio_reviewed": false,
+    "captions_reviewed": false,
+    "cover_reviewed": false,
+    "cost_usd": null,
+    "cost_evidence": null
+  },
+  "disclosure_note": "Set YouTube altered/synthetic-content disclosure to true for the AI-presented host and/or realistic synthetic elements. Do not publish without the appropriate disclosure.",
+  "note": "Prepared metadata only. Do not fill in render facts or set cost_usd to 0 until supported by the final render QA note and verifiable evidence. No paid credits, paid fallback, upgrade, or billing-capable trial is permitted."
+}
