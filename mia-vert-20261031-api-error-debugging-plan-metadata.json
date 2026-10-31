@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-31",
+  "episode_slug": "api-error-debugging-plan",
+  "title": "Turn an API Error Into a Debugging Plan With AI",
+  "description": "An API request failed? Give AI a safe, structured debugging brief instead of pasting your whole project. Share the method, a sanitized endpoint, status code, exact error, expected result and actual result. Use fake sample data, ask for evidence-ranked hypotheses, test one cause at a time, and verify against the official API docs. Never share API keys, access tokens, passwords or customer data. Professor Mia teaches practical AI for developers and builders.",
+  "hashtags": [
+    "#AIDevelopment",
+    "#APIDebugging",
+    "#DeveloperTools"
+  ],
+  "tags": [
+    "API debugging",
+    "AI for developers",
+    "debugging with AI",
+    "HTTP status codes",
+    "API errors",
+    "developer productivity",
+    "software engineering",
+    "API testing",
+    "secure coding",
+    "prompt engineering",
+    "Professor Mia"
+  ],
+  "category": "SCIENCE_TECHNOLOGY",
+  "youtube_type": "short",
+  "madeForKids": false,
+  "isAiGeneratedContent": true,
+  "pinned_comment": "What API error should Professor Mia break down next?",
+  "target": {
+    "platform": "YouTube",
+    "metricool_brand": "bigmoeshafy",
+    "metricool_brand_id": "6985395",
+    "youtube_channel_id": "UCknUgK7LEQOoXk_44juSfzw",
+    "timezone": "Africa/Cairo"
+  },
+  "render": {
+    "status": "REQUESTED_NOT_RENDERED",
+    "expected_filename": "mia-vert-20261031-api-error-debugging-plan-final.mp4",
+    "cover_filename": "mia-vert-20261031-api-error-debugging-plan-cover.jpg",
+    "srt_filename": "mia-vert-20261031-api-error-debugging-plan.srt",
+    "qa_filename": "mia-vert-20261031-api-error-debugging-plan-qa.md",
+    "duration_seconds": null,
+    "width_px": null,
+    "height_px": null,
+    "file_size_bytes": null,
+    "file_sha256": null,
+    "renderer_provider": null,
+    "workflow_description": null,
+    "audio_reviewed": false,
+    "captions_reviewed": false,
+    "cover_reviewed": false,
+    "cost_usd": null,
+    "cost_evidence": null
+  },
+  "disclosure_note": "Set YouTube altered/synthetic-content disclosure to true for the AI-presented host and/or realistic synthetic elements. Do not publish without the appropriate disclosure.",
+  "note": "Prepared metadata only. Do not fill render facts or set cost_usd to 0 until the final render QA note and verifiable evidence support it. No paid credits, paid fallback, upgrades or billing-capable trials are permitted."
+}
