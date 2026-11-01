@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-01",
+  "episode_slug": "email-thread-action-log",
+  "title": "Turn a Long Email Thread Into a Verified Action List With AI",
+  "description": "Stop asking AI for vague email summaries. Turn a long thread into a draft decision log with the decision, owner, due date, source sentence and open questions. Remove unnecessary personal or confidential details first, mark missing information as “not specified,” and verify every row against the original messages. A suggestion is not an approved decision. Keep the result as a draft until a person checks it. Professor Mia teaches practical AI workflows for work.",
+  "hashtags": [
+    "#AIWorkflow",
+    "#Productivity",
+    "#EmailTips"
+  ],
+  "tags": [
+    "AI email workflow",
+    "summarize email threads",
+    "decision log",
+    "action items",
+    "meeting and email productivity",
+    "AI for work",
+    "prompt engineering",
+    "business productivity",
+    "source verification",
+    "human review",
+    "Professor Mia"
+  ],
+  "category": "SCIENCE_TECHNOLOGY",
+  "youtube_type": "short",
+  "madeForKids": false,
+  "isAiGeneratedContent": true,
+  "pinned_comment": "Which part of your inbox would you turn into a verified action list first?",
+  "target": {
+    "platform": "YouTube",
+    "metricool_brand": "bigmoeshafy",
+    "metricool_brand_id": "6985395",
+    "youtube_channel_id": "UCknUgK7LEQOoXk_44juSfzw",
+    "timezone": "Africa/Cairo"
+  },
+  "render": {
+    "status": "REQUESTED_NOT_RENDERED",
+    "expected_filename": "mia-vert-20261101-email-thread-action-log-final.mp4",
+    "cover_filename": "mia-vert-20261101-email-thread-action-log-cover.jpg",
+    "srt_filename": "mia-vert-20261101-email-thread-action-log.srt",
+    "qa_filename": "mia-vert-20261101-email-thread-action-log-qa.md",
+    "duration_seconds": null,
+    "width_px": null,
+    "height_px": null,
+    "file_size_bytes": null,
+    "file_sha256": null,
+    "renderer_provider": null,
+    "workflow_description": null,
+    "audio_reviewed": false,
+    "captions_reviewed": false,
+    "cover_reviewed": false,
+    "cost_usd": null,
+    "cost_evidence": null
+  },
+  "disclosure_note": "Set YouTube altered/synthetic-content disclosure to true for the AI-presented host and/or realistic synthetic elements. Do not publish without the appropriate disclosure.",
+  "note": "Prepared metadata only. Do not fill render facts or set cost_usd to 0 until the final render QA note and verifiable evidence support it. No paid credits, paid fallback, upgrades or billing-capable trials are permitted."
+}
